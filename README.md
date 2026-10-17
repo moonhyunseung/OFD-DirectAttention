@@ -43,3 +43,7 @@ No moving dependency is allowed. Every integration result must lock exact upstre
 ## Non-goals
 
 Approximate softmax, token dropping, block dropping, truncated low-rank replacement, or changed quantization semantics do not belong in the exact path.
+
+## Reproducible reference checkpoint
+
+See [reference findings](analysis/REFERENCE_FINDINGS.md) for the pinned source SHA, raw run, numerical observations and remaining gates. Install the recorded environment and run `python experiments/verify_reference.py` from a clean worktree. No GPU performance claim is made.
