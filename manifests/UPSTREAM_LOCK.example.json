@@ -1,0 +1,20 @@
+{
+  "direct_k": {
+    "repository": "moonhyunseung/OFD-DirectK",
+    "commit": "<SHA>",
+    "semantic_contract": "<path-or-version>",
+    "revalidated_locally": false
+  },
+  "direct_v": {
+    "repository": "moonhyunseung/OFD-DirectV",
+    "commit": "<SHA>",
+    "semantic_contract": "<path-or-version>",
+    "revalidated_locally": false
+  },
+  "signed_int4": {
+    "repository": "moonhyunseung/OFD-SignedInt4",
+    "commit": "<SHA-or-null>",
+    "semantic_contract": "<path-or-null>",
+    "revalidated_locally": false
+  }
+}
