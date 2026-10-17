@@ -1,0 +1,36 @@
+{
+  "schema": 1,
+  "dependencies": [
+    {
+      "repository": "moonhyunseung/OFD-DirectK",
+      "commit": "53efd65761a756d3e0ff059272eb57779e406d84",
+      "source_path": "reference/quant.py",
+      "vendored_path": "upstream/directk/quant.py",
+      "source_sha256": "9d59139d4b9390f2efe56f3f61cc468e733c563098eff832c2c5f28f9b77af9d",
+      "vendored_sha256": "9d59139d4b9390f2efe56f3f61cc468e733c563098eff832c2c5f28f9b77af9d",
+      "adaptations": []
+    },
+    {
+      "repository": "moonhyunseung/OFD-DirectK",
+      "commit": "53efd65761a756d3e0ff059272eb57779e406d84",
+      "source_path": "reference/direct_packed_score.py",
+      "vendored_path": "upstream/directk/score.py",
+      "source_sha256": "288bf4c4f04efbe6a77e414ea00838e22442ee7cd034764a1a7b5e6226244f3c",
+      "vendored_sha256": "c284016884b6191cb286e9fb689632acdc83be77fc10fa561eed6de038d058ef",
+      "adaptations": [
+        "import reference.quant renamed to upstream.directk.quant; no operator change"
+      ]
+    },
+    {
+      "repository": "moonhyunseung/OFD-DirectV",
+      "commit": "a02307c0bcc0bf5f8942b72ab8a9b0ecf4e4fe49",
+      "source_path": "reference/direct_value.py",
+      "vendored_path": "upstream/directv/value.py",
+      "source_sha256": "4b8851640a3bb1095b1179f7cb1f551fb8ea7d5252db9299a9c82238bda63703",
+      "vendored_sha256": "4b8851640a3bb1095b1179f7cb1f551fb8ea7d5252db9299a9c82238bda63703",
+      "adaptations": []
+    }
+  ],
+  "representation": "offset_binary",
+  "signed_codec_used": false
+}
